@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Identity Card - owner h4ll0 w0rld</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: #0d1117;
+      color: #c9d1d9;
+      font-family: 'Courier New', Courier, monospace;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .card {
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 12px;
+      width: 100%;
+      max-width: 420px;
+      padding: 24px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .card::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background: linear-gradient(90deg, #2ea043, #238636, #3fb950);
+    }
+    .avatar {
+      font-size: 80px;
+      margin-bottom: 10px;
+      user-select: none;
+      filter: drop-shadow(0 0 10px rgba(46, 160, 67, 0.4));
+    }
+    .name {
+      font-size: 1.25rem;
+      font-weight: bold;
+      color: #58a6ff;
+      margin-bottom: 15px;
+      letter-spacing: 1px;
+    }
+    .morse-box {
+      background: #0d1117;
+      border: 1px solid #21262d;
+      border-radius: 6px;
+      padding: 12px;
+      font-size: 0.8rem;
+      color: #8b949e;
+      margin-bottom: 20px;
+      word-break: break-all;
+      line-height: 1.5;
+      text-align: left;
+    }
+    .morse-title {
+      font-weight: bold;
+      color: #7ee787;
+      margin-bottom: 8px;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .morse-section {
+      margin-bottom: 10px;
+    }
+    .morse-section:last-child {
+      margin-bottom: 0;
+    }
+    .btn-download {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      width: 100%;
+      padding: 12px 16px;
+      background-color: #238636;
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 0.95rem;
+      border-radius: 6px;
+      border: 1px solid rgba(240, 246, 252, 0.1);
+      transition: all 0.2s ease-in-out;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+    }
+    .btn-download:hover {
+      background-color: #2ea043;
+      transform: translateY(-2px);
+      box-shadow: 0 5px 12px rgba(46, 160, 67, 0.3);
+    }
+    .tagline {
+      margin-top: 20px;
+      font-size: 0.7rem;
+      color: #484f58;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="avatar">☠️</div>
+    <div class="name">owner h4ll0 w0rld/h3ll0 w0rld</div>
+
+    <div class="morse-box">
+      <div class="morse-title">> RUNNER_AI_EXEC_LOGS</div>
+      
+      <div class="morse-section">
+        -..-. .-. ..- -. -. .. -. --. / -.--. .-. ..- -. -. . .-. -....- .- .. -.--.- / .-- .. - .... / -....- - . -..- - -....- / - --- / -.--. .... . .-.. .-.. --- / .-- --- .-. .-.. -.. -.--.-
+      </div>
+      
+      <div class="morse-section">
+        -..-. .-. ..- -. -. .. -. --. / -.--. .-. ..- -. -. . .-. -....- .- .. -.--.- / .-- .. - .... / -.--. -.-. ..- ... - --- -- -.--.- -....- -.-. --- -- -- .- -. -.. / -.--. .... . .-.. .-.. --- / .-- --- .-. .-.. -.. -.--.-
+      </div>
+    </div>
+
+    <a href="https://github.com/musgamerkeren23-afk/Boost-Fps-App/releases/tag/IDKBUTTHISMAKEMEWANNADIED" target="_blank" class="btn-download">
+      🚀 Download Boost-Fps-App (v1.0-beta)
+    </a>
+
+    <div class="tagline">#idkbutthismakemwannadied 💀</div>
+  </div>
+
+</body>
+</html>
